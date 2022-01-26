@@ -20,7 +20,7 @@ p {
 }
 
 /*ELEMENT CLASSES*/
-.link {
+.link_yellow_bg {
     border-width: 3px;
     border-style: solid;
     padding: 4px;
@@ -31,11 +31,29 @@ p {
     transition: 0.2s ease-out;
 }
 
-.link:hover {
+.link_purple_bg {
+    border-width: 3px;
+    border-style: solid;
+    padding: 4px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Sen', 'sans-serif';
+    color: #f2d492;
+    transition: 0.2s ease-out;
+}
+
+.link_yellow_bg:hover {
     background-color: #464655;
     color: #f2d492;
     transition: 0.2s ease-in;
     border-color: #464655;
+}
+
+.link_purple_bg:hover {
+    background-color: #f2d492;
+    color: #464655;
+    transition: 0.2s ease-in;
+    border-color: #f2d492;
 }
 
 /*PAGE SECTIONS*/
