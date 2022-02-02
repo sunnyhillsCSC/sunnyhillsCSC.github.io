@@ -67,6 +67,13 @@ p {
     vertical-align: middle;
     border-style: none;
 }
+
+.oc3logo {
+    /*object-position: I want to somehow get it to sit in the empty space left by the page title*/
+    width: 200px;
+    height: 200px;
+}
+
 .inset-card {
     text-align: center;
     background-color: #f2d492;
