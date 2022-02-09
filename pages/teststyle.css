@@ -1,3 +1,92 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #464655;
+}
+h1 {
+    font-family: 'Sen', sans-serif;
+    font-size: 72px;
+    text-align: left;
+    color: #d5cfe1;
+}
+h2 {
+    font-family: 'Sen', sans-serif;
+    font-size: 50px;
+    color: #464655;
+}
+p {
+    font-family: 'courier new', 'sans-serif';
+    font-size: 20px;
+}
+
+/*ELEMENT CLASSES*/
+.link_yellow_bg {
+    border-width: 3px;
+    border-style: solid;
+    padding: 4px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Sen', 'sans-serif';
+    color: #464655;
+    transition: 0.2s ease-out;
+}
+
+.link_purple_bg {
+    border-width: 3px;
+    border-style: solid;
+    padding: 4px;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Sen', 'sans-serif';
+    color: #f2d492;
+    transition: 0.2s ease-out;
+}
+
+.link_yellow_bg:hover {
+    background-color: #464655;
+    color: #f2d492;
+    transition: 0.2s ease-in;
+    border-color: #464655;
+}
+
+.link_purple_bg:hover {
+    background-color: #f2d492;
+    color: #464655;
+    transition: 0.2s ease-in;
+    border-color: #f2d492;
+}
+
+/*PAGE SECTIONS*/
+.section1 {
+    padding: 5%;
+    margin: 0px;
+    /*background-color: #ffd561;*/
+    background-color: #464655;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.inset-card {
+    text-align: center;
+    background-color: #f2d492;
+    border-radius: 24px;
+    padding: 10px 10px 30px 10px;
+    margin-top: 210px;
+    box-shadow: 0px 0px 20px #353544;
+    width: 45%;
+}
+
+/*TITLE FORMATTING*/
+.oc3logo {
+    align-self:center;
+    margin-bottom:0px;
+    padding-bottom:0px;
+    width:200px;
+    height:200px;
+}
+
 .occ {
     display:flex;
     vertical-align: middle;
@@ -5,12 +94,40 @@
     margin-bottom:-24px;
     padding-bottom:0px;
 }
-.oc3logo {
-    align-self:center;
-    margin-bottom:0px;
-    padding-bottom:0px;
-}
+
 .titlecomp {
     margin-top: 0px;
     padding-top:0px;
 }
+
+/*SCREEN SIZE ACCOMMODATION*/
+@media only screen and (max-width: 1600px) {
+}
+@media only screen and (max-width: 1000px) {
+    div.inset-card {
+        margin-top: 20px;
+        width: auto;
+    }
+    .section1 {
+        display: inline-block;
+        padding-top: 0px;
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    h1 {
+        font-size: 64px;
+    }
+    .inset-card {
+        margin-top: 120px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+    p {
+        font-size: 16px;
+    }
+}
+
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Allerta&family=Allerta+Stencil&family=Courier+Prime&display=swap');
