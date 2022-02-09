@@ -68,12 +68,6 @@ p {
     border-style: none;
 }
 
-.oc3logo {
-    /*object-position: I want to somehow get it to sit in the empty space left by the page title*/
-    width: 200px;
-    height: 200px;
-}
-
 .inset-card {
     text-align: center;
     background-color: #f2d492;
@@ -84,6 +78,29 @@ p {
     width: 45%;
 }
 
+/*TITLE FORMATTING*/
+.oc3logo {
+    align-self:center;
+    margin-bottom:0px;
+    padding-bottom:0px;
+    width:200px;
+    height:200px;
+}
+
+.occ {
+    display:flex;
+    vertical-align: middle;
+    line-height: 30px;
+    margin-bottom:-24px;
+    padding-bottom:0px;
+}
+
+.titlecomp {
+    margin-top: 0px;
+    padding-top:0px;
+}
+
+/*SCREEN SIZE ACCOMMODATION*/
 @media only screen and (max-width: 1600px) {
 }
 @media only screen and (max-width: 1000px) {
